@@ -1,0 +1,20 @@
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.7.14)  19 AUG 2023 10:19
+ restricted system commands enabled.
+**Maziyar_Gerami_Resume.tex
+
+! Emergency stop.
+<*> Maziyar_Gerami_Resume.tex
+                          
+End of file on the terminal!
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 7 strings out of 477805
+ 100000,383344 words of node,token memory allocated 270 words of node memory still in use:
+   1 hlist, 39 glue_spec nodes
+   avail lists: 2:12,3:1,4:1,5:1
+ 20823 multiletter control sequences out of 65536+600000
+ 14 fonts using 591679 bytes
+ 0i,0n,0p,27b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
