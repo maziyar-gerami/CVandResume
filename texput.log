@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.7.14)  19 AUG 2023 10:19
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.7.14)  19 AUG 2023 10:31
  restricted system commands enabled.
 **Maziyar_Gerami_Resume.tex
 
@@ -10,7 +10,7 @@ End of file on the terminal!
 
 
 Here is how much of LuaTeX's memory you used:
- 7 strings out of 477805
+ 6 strings out of 477805
  100000,383344 words of node,token memory allocated 270 words of node memory still in use:
    1 hlist, 39 glue_spec nodes
    avail lists: 2:12,3:1,4:1,5:1

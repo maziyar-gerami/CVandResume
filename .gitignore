@@ -1,3 +1,5 @@
-*/*.pdf
-*/*.log
-*/*.fdb_latexmk
+**/*.pdf
+**/*.log
+**/*.out
+**/*.aux
+**/*.fdb_latexmk

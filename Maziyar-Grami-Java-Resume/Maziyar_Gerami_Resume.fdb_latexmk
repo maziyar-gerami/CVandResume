@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1692427902 "/home/maziyar/Work/Github/CV and Resume/Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.tex" "Maziyar_Gerami_Resume.pdf" "Maziyar_Gerami_Resume" 1692427902
+["pdflatex"] 1692429175 "/home/maziyar/Work/Github/CV and Resume/Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.tex" "Maziyar_Gerami_Resume.pdf" "Maziyar_Gerami_Resume" 1692429175
   "/etc/texmf/web2c/texmf.cnf" 1685865755 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/maziyar/Work/Github/CV and Resume/Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.tex" 1692423281 660 0a4daac34b7cf0191b76167d94b01f17 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -19,8 +19,8 @@
   "/usr/share/texlive/texmf-dist/tex/lualatex/luainputenc/luainputenc.sty" 1290186129 6248 ceeaee07c710940f3ede6f9cc8a61680 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1689336615 2059788 3d1abd3ae64a49104a5772b89b23f33e ""
-  "Maziyar_Gerami_Resume.aux" 1692427902 32 3985256e7290058c681f74d7a3565a19 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1692429080 2059668 6bd5fd0fe17bab16b0d8b11c2b48109a ""
+  "Maziyar_Gerami_Resume.aux" 1692429175 32 3985256e7290058c681f74d7a3565a19 ""
   "Maziyar_Gerami_Resume.tex" 1692423281 660 0a4daac34b7cf0191b76167d94b01f17 ""
   "documentMETADATA.cls" 1685853130 11466 cca5ed25a9c0ad0fe0bc4dc96adbd423 ""
   (generated)
