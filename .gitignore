@@ -3,3 +3,12 @@
 **/*.out
 **/*.aux
 **/*.fdb_latexmk
+texput.log
+Maziyar-Gerami-Clojure-Resume/Maziyar_Gerami_Resume.aux
+Maziyar-Gerami-Clojure-Resume/Maziyar_Gerami_Resume.fdb_latexmk
+Maziyar-Gerami-Clojure-Resume/Maziyar_Gerami_Resume.log
+Maziyar-Gerami-Clojure-Resume/Maziyar_Gerami_Resume.pdf
+Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.aux
+Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.fdb_latexmk
+Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.log
+.gitignore
