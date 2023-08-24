@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.8.20)  23 AUG 2023 21:34
+This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2023.8.20)  24 AUG 2023 07:32
  restricted system commands enabled.
 **Maziyar_Gerami_Resume.tex
 (./Maziyar_Gerami_Resume.tex
@@ -1141,19 +1141,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--19
  []
 
 ) (./section_experience.tex) (./section_honors_awards.tex)
-Overfull \hbox (1.52237pt too wide) in paragraph at lines 4--20
+Overfull \hbox (1.52237pt too wide) in paragraph at lines 3--20
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--20
+Underfull \hbox (badness 10000) in paragraph at lines 3--20
 
  []
 
 (./section_languages.tex) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Maziyar_Gerami_Resume.a
-ux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Maziyar_Gerami_Resu
+me.aux)
 
 Package rerunfilecheck Warning: File `Maziyar_Gerami_Resume.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -1165,23 +1165,23 @@ Package rerunfilecheck Info: Checksums for `Maziyar_Gerami_Resume.out':
 )
 
 Here is how much of LuaTeX's memory you used:
- 29907 strings out of 477805
- 244273,1144653 words of node,token memory allocated
+ 29906 strings out of 477805
+ 244284,1144653 words of node,token memory allocated
  539 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 72 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 1:2,2:10363,3:6189,4:340,5:2522,6:233,7:18980,8:49,9:3222,10:13,
-11:1178
- 49520 multiletter control sequences out of 65536+600000
+   avail lists: 1:6,2:10243,3:6112,4:340,5:2642,6:236,7:19766,8:49,9:3205,10:14,
+11:1259
+ 49518 multiletter control sequences out of 65536+600000
  51 fonts using 7721615 bytes
  115i,12n,111p,1210b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
 <./fonts/SourceSansPro-LightIt.otf></usr/share/texlive/texmf-dist/fonts/opentype
 /public/fontawesome/FontAwesome.otf><./fonts/SourceSansPro-Regular.otf><./fonts/
 SourceSansPro-Light.otf>
-Output written on Maziyar_Gerami_Resume.pdf (1 page, 34720 bytes).
+Output written on Maziyar_Gerami_Resume.pdf (2 pages, 34930 bytes).
 
-PDF statistics: 59 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 131072)
+PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
