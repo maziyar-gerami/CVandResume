@@ -1,6 +1,6 @@
-PWD /home/maziyar/Work/Github/CV and Resume/Maziyar-Grami-Java-Resume
+PWD /home/maziyar/Work/Github/CV and Resume/Java/Resume
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
-INPUT /home/maziyar/Work/Github/CV and Resume/Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.tex
+INPUT /home/maziyar/Work/Github/CV and Resume/Java/Resume/Maziyar_Gerami_Resume.tex
 OUTPUT Maziyar_Gerami_Resume.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ltluatex.lua
