@@ -1,6 +1,6 @@
-PWD /home/maziyar/Work/Github/CV and Resume/Maziyar-Grami-Java-Resume
+PWD /home/maziyar/Work/Github/CV and Resume/Java/CV
 INPUT /var/lib/texmf/web2c/luahbtex/lualatex.fmt
-INPUT /home/maziyar/Work/Github/CV and Resume/Maziyar-Grami-Java-Resume/Maziyar_Gerami_Resume.tex
+INPUT /home/maziyar/Work/Github/CV and Resume/Java/CV/Maziyar_Gerami_Resume.tex
 OUTPUT Maziyar_Gerami_Resume.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ltluatex.lua
@@ -580,8 +580,10 @@ INPUT /home/maziyar/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload
 OUTPUT /home/maziyar/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
 INPUT ./section_honors_awards.tex
 INPUT ./section_honors_awards.tex
-INPUT ./section_languages.tex
-INPUT ./section_languages.tex
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./section_publications_etc.tex
+INPUT ./section_publications_etc.tex
+INPUT ./section_languages.tex
+INPUT ./section_languages.tex
 INPUT ./Maziyar_Gerami_Resume.aux
 INPUT ./Maziyar_Gerami_Resume.out
