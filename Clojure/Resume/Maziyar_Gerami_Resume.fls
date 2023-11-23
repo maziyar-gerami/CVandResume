@@ -1,9 +1,9 @@
-PWD /home/maziyar/Work/Github/CV and Resume/Maziyar-Gerami-Clojure-Resume
+PWD /home/maziyar/Work/Github/CV and Resume/Clojure/Resume
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/maziyar/Work/Github/CV and Resume/Maziyar-Gerami-Clojure-Resume/Maziyar_Gerami_Resume.tex
+INPUT /home/maziyar/Work/Github/CV and Resume/Clojure/Resume/Maziyar_Gerami_Resume.tex
 OUTPUT Maziyar_Gerami_Resume.log
 INPUT ./documentMETADATA.cls
 INPUT ./documentMETADATA.cls

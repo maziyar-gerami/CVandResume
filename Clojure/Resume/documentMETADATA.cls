@@ -351,7 +351,7 @@
 
 % Define the 'experiences' environment
 \newenvironment{experiences}{%
-  \begin{longtable}{R{\leftcolumn}|E}
+  \begin{longtable}{p{0.0000000000001\textwidth}|E}
 }{%
   \end{longtable}
 }
