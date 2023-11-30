@@ -1,10 +1,10 @@
-PWD /home/maziyar/Work/Github/CV and Resume/Java/Resume
+PWD /home/maziyar/Work/Github/CV and Resume/Java/CV
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/maziyar/Work/Github/CV and Resume/Java/Resume/Maziyar_Gerami_Java_Resume.tex
-OUTPUT Maziyar_Gerami_Java_Resume.log
+INPUT /home/maziyar/Work/Github/CV and Resume/Java/CV/Maziyar_Gerami_CV.tex
+OUTPUT Maziyar_Gerami_CV.log
 INPUT ./documentMETADATA.cls
 INPUT ./documentMETADATA.cls
 INPUT documentMETADATA.cls
