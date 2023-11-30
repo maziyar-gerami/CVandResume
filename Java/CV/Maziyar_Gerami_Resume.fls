@@ -583,6 +583,8 @@ INPUT ./section_honors_awards.tex
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./section_publications_etc.tex
 INPUT ./section_publications_etc.tex
+INPUT ./section_projects.tex
+INPUT ./section_projects.tex
 INPUT ./section_languages.tex
 INPUT ./section_languages.tex
 INPUT ./Maziyar_Gerami_Resume.aux
