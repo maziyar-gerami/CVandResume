@@ -578,9 +578,9 @@ INPUT /home/maziyar/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload
 OUTPUT /home/maziyar/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 INPUT /home/maziyar/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua
 OUTPUT /home/maziyar/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
-INPUT ./section_honors_awards.tex
-INPUT ./section_honors_awards.tex
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./section_honors_awards.tex
+INPUT ./section_honors_awards.tex
 INPUT ./section_languages.tex
 INPUT ./section_languages.tex
 INPUT ./Maziyar_Gerami_Clojure_Resume.aux
