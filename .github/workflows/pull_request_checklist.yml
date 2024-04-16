@@ -1,63 +1,6 @@
-name: Pull Request Checklist
+### Description
 
-on:
-  pull_request:
-    types: [opened, synchronize, reopened, edited, labeled, unlabeled]
+Check list
 
-jobs:
-  checklist:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout the code
-      uses: actions/checkout@v2
-
-    - name: Verify checklist
-      id: verify_checklist
-      run: |
-        # Check for the presence of a specific checklist in the pull request body
-        PR_BODY=$(jq -r '.pull_request.body' "$GITHUB_EVENT_PATH")
-        CHECKLIST=(" - [x] Task 1" " - [x] Task 2" " - [x] Task 3")
-        CHECKLIST_COMPLETED=true
-        
-        # Check each item in the checklist
-        for ITEM in "${CHECKLIST[@]}"; do
-          if [[ ! "$PR_BODY" =~ "$ITEM" ]]; then
-            CHECKLIST_COMPLETED=false
-            break
-          fi
-        done
-        
-        # Output the result of the checklist verification
-        echo "::set-output name=completed::$CHECKLIST_COMPLETED"
-
-    - name: Update PR label and comment
-      if: steps.verify_checklist.outputs.completed == 'true'
-      uses: actions/github-script@v6
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        script: |
-          const prNumber = context.payload.pull_request.number;
-          const owner = context.repo.owner;
-          const repo = context.repo.repo;
-          
-          // Remove other labels and add 'in review' label
-          await github.issues.replaceAllLabels({
-            owner,
-            repo,
-            issue_number: prNumber,
-            labels: ['in review']
-          });
-          
-          // Add a comment to the PR
-          await github.issues.createComment({
-            owner,
-            repo,
-            issue_number: prNumber,
-            body: 'Checklist completed. PR is ready for review.'
-          });
-
-    - name: Block PR from being labeled as 'in review'
-      if: steps.verify_checklist.outputs.completed == 'false'
-      run: |
-        echo "The PR does not meet the checklist requirements."
-        exit 1
+[] - Did You add postman file?
+[] - Di you update document?
