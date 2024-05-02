@@ -4,6 +4,8 @@
 \usepackage{multicol}
 \newif\if@showLinks   \@showLinksfalse
 
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
+
 \DeclareOption{green}{
   \def\@green{green}
 }
