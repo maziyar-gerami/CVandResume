@@ -1,0 +1,38 @@
+name: Build Resume PDF
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Compile Resume
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: |
+            resume.tex
+            cv.tex
+          latexmk_use_lualatex: true
+
+      - name: Upload Resume PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: |
+            *.pdf
+
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            *.pdf
+
