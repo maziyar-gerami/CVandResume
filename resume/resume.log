@@ -1,0 +1,603 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2025.4.4)  8 AUG 2025 14:26
+ restricted system commands enabled.
+**../resume.tex
+(../resume.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/maziyar/.texlive2023/texmf-va
+r/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-
+08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/maziyar/.texlive2023/texmf-va
+r/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+
+! LaTeX Error: File `awesome-cv.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Interruption.
+<to be read again> 
+}
+l.22 
+    
+? 
+! Undefined control sequence.
+l.24 \geometry
+            {left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \geometry{l
+              eft=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--25
+[]left=1.4cm,
+ []
+
+! Undefined control sequence.
+l.29 \colorlet
+            {awesome}{awesome}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \colorlet{a
+              wesome}{awesome}
+? 
+! Undefined control sequence.
+l.31  \definecolor
+                {awesome}{HTML}{3E6D9C}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--32
+[]awesomeawesome
+ []
+
+! Undefined control sequence.
+l.42 \setbool
+           {acvSectionColorHighlight}{true}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \setbool{a
+             cvSectionColorHighlight}{true}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--43
+[]acvSectionColorHighlighttrue 
+ []
+
+
+! LaTeX Error: Command \acvHeaderSocialSep undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \renewcommand{\acvHeaderSocialSep}
+                                     {\quad\textbar\quad}
+? 
+! Undefined control sequence.
+l.54 \name
+        {Maziyar}{Gerami}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \name{M
+          aziyar}{Gerami}
+? 
+! Undefined control sequence.
+l.55 \position
+            {Software Engineer{\enskip\cdotp\enskip}Back-end Developer{\ensk...
+? 
+! Undefined control sequence.
+l.56 \address
+           {Kermanshah, Iran}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 54--57
+[]MaziyarGerami
+ []
+
+! Undefined control sequence.
+l.58 \mobile
+          {(+98) 9396919921}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \mobile{(
+            +98) 9396919921}
+? 
+! Undefined control sequence.
+l.59 \email
+         {contact@maziyar-gerami.ir}
+? 
+! Undefined control sequence.
+l.61 \homepage
+            {maziyar-gerami.ir}
+? 
+! Undefined control sequence.
+l.62 \github
+          {maziyar-gerami}
+? 
+! Undefined control sequence.
+l.63 \linkedin
+            {maziyar-gerami}
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 58--77
+[](+98)
+ []
+
+luaotfload | db : Font names database loaded from /home/maziyar/.texlive2023/tex
+mf-var/luatex-cache/generic/names/luaotfload-names.luc.gz (/usr/share/texlive/t
+exmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-01-04 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count185
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+)
+No file resume.aux.
+
+\openout1 = resume.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+0.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \begin{document}
+                   
+? 
+! Undefined control sequence.
+l.84 \makecvheader
+                [C]
+? 
+! Undefined control sequence.
+l.88 \makecvfooter
+                
+? 
+! Undefined control sequence.
+l.89   {\today
+            }
+? 
+! Undefined control sequence.
+l.91   {\thepage
+              }
+? 
+
+! LaTeX Error: File `resume/summary.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `resume/skills.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `resume/experience.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `resume/education.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: File `resume/certificates.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex File ignored)
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 \end{document}
+                  
+? 
+[1
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 4 (U+0034) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 8 (U+0038) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 4 (U+0034) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 8 (U+0038) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no H (U+0048) in font nullfont!
+Missing character: There is no T (U+0054) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no L (U+004C) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no E (U+0045) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no C (U+0043) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no H (U+0048) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no u (U+0075) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no M (U+004D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no G (U+0047) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no S (U+0053) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no w (U+0077) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no E (U+0045) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no ^^A (U+0001) in font nullfont!
+Missing character: There is no B (U+0042) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no k (U+006B) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no d (U+0064) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no ^^A (U+0001) in font nullfont!
+Missing character: There is no J (U+004A) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no D (U+0044) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no v (U+0076) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no K (U+004B) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no s (U+0073) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no I (U+0049) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no ( (U+0028) in font nullfont!
+Missing character: There is no + (U+002B) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no 8 (U+0038) in font nullfont!
+Missing character: There is no ) (U+0029) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no 3 (U+0033) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no 9 (U+0039) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no n (U+006E) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no @ (U+0040) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no z (U+007A) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no y (U+0079) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no - (U+002D) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no a (U+0061) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 281 strings out of 476553
+ 100000,1977958 words of node,token memory allocated
+ 366 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 40 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:92,3:34,4:11,5:17,6:14,7:762,9:50,10:10,11:14
+ 22359 multiletter control sequences out of 65536+600000
+ 15 fonts using 723367 bytes
+ 35i,5n,49p,129b,96s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf>
+Output written on resume.pdf (1 page, 4288 bytes).
+
+PDF statistics: 15 PDF objects out of 1000 (max. 8388607)
+ 8 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

@@ -1,0 +1,83 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome}
+% Custom color per your preference
+\definecolor{awesome}{HTML}{3E6D9C}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% Social information separator
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+% PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+% Uncomment to add photo if available (path must be correct)
+% \photo[rectangle,edge,right]{./examples/profile}
+
+\name{Maziyar}{Gerami}
+\position{Software Engineer{\enskip\cdotp\enskip}Back-end Developer{\enskip\cdotp\enskip}Java Developer}
+\address{Kermanshah, Iran}
+
+\mobile{(+98) 9396919921}
+\email{contact@maziyar-gerami.ir}
+\homepage{maziyar-gerami.ir}
+\github{maziyar-gerami}
+\linkedin{maziyar-gerami}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Header with personal info, centered
+\makecvheader[C]
+
+% Footer with date, name and page number
+\makecvfooter
+  {\today}
+  {Maziyar Gerami~~~·~~~Résumé}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+% CV/Resume content: change paths to your tex files accordingly
+%-------------------------------------------------------------------------------
+\input{cv/summary.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+% \input{resume/honors.tex}
+% \input{resume/presentation.tex}
+% \input{resume/writing.tex}
+% \input{resume/committees.tex}
+\newpage
+\input{cv/education.tex}
+\input{cv/publications.tex}
+\input{cv/certificates.tex}
+% \input{resume/extracurricular.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
