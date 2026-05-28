@@ -1,0 +1,36 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.4.4)  11 JUL 2025 11:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**cv.text
+(/usr/share/texlive/texmf-dist/tex/latex/tools/q.tex
+! Interruption.
+<to be read again> 
+                   \immediate 
+l.1 
+    %%
+? :q
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? 
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+File ignored
+)
+! Emergency stop.
+<*> cv.text
+           
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 474878
+ 416 string characters out of 5762517
+ 1915627 words of memory out of 5000000
+ 22163 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 11i,0n,13p,87b,8s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
