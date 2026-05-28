@@ -4,6 +4,8 @@ This repository contains my professional CV and resume written in LaTeX.
 
 The project is built using **LuaLaTeX** for modern font handling and high-quality PDF generation.
 
+![alt text](image.png)
+
 ## Repository Structure
 
 ```text
